@@ -1,16 +1,18 @@
 
 body, html {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #ffa000;
 }
 
 p {
-  font-size: 10em;
-  color: #fff;  
+  font-size: calc(1px + 4vh);
+  color: #0e0e0e;
+  padding: 20%;
+  font-weight: bold;
 }
 
 .img {
-  width: 10rem;
+  width: 20vh;
 }
 
 .mensagem {
@@ -20,4 +22,5 @@ p {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  max-width: 100%;
 }
